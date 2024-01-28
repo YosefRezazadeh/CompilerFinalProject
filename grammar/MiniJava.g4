@@ -11,7 +11,7 @@ mainMethod:
  'public' 'static' 'void' 'main' '(' type  Identifier ')' '{' statement* '}'
 ;
 classDeclaration
-:	 'class' className = Identifier ('inherits' parentName = Identifier)? ( 'implements' Identifier ( ',' Identifier)* )? '{' fieldDeclaration* methodDeclaration* '}';
+:	 'class' className = Identifier (inherits = 'inherits' parentName = Identifier)? ( implements = 'implements' Identifier ( ',' Identifier)* )? '{' fieldDeclaration* methodDeclaration* '}';
 
 interfaceDeclaration: 'interface' Identifier '{' fieldDeclaration* interfaceMethodDeclaration*	'}';
 
@@ -19,7 +19,7 @@ interfaceMethodDeclaration
 :	 (accessModifier)? returnType Identifier '(' parameterList? ')' ';';
 
 fieldDeclaration
-:	 (accessModifier)? (Final)? type Identifier (EQ expression)?';'
+:	  (accessModifier)? (final = Final)? type Identifier (EQ expression)?';'
 ;
 localDeclaration
 :	type Identifier ';';

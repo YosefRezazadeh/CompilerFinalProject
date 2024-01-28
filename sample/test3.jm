@@ -1,0 +1,77 @@
+class Classes {
+public static void main(String[] args) {
+Base b;
+Derived d;
+number x;
+b = new Base();
+d = new Derived();
+{
+b = d;
+}
+print(b.set(1));
+print(b.set(3));
+}
+}
+class Rest implements Nothing{
+}
+class Base inherits Rest implements Face,MyFace{
+Hi data = g;
+private Rest[] d;
+private number set(Hi[] x) {
+number[] a;
+data = x;
+ret data;
+}
+public number get() {
+ret data;
+}
+private number test(){
+while(1)
+number x;
+number b ;
+c.get();
+{
+number t;
+a = 0;
+b = 5;
+}
+if(true){
+boolean n;
+{ }
+}
+ret a + b;
+}
+}
+class Derived inherits Base {
+public number set(number x, C d) {
+data = x * 2;
+{
+Base[] t;
+}
+if (a<0){
+    while(a<2){
+    if(a<2){
+    }
+    }
+    if(a<2){
+
+    }
+    else{
+    }
+}
+number a;
+a = 6;
+ret data;
+}
+}
+class Hi {
+private void sayHi(number one, boolean two, Hi three, number four){
+}
+}
+interface Face{
+final number[] a = {1,2};
+number getFace(number te);
+}
+interface MyFace{
+final String myFace= ":)";
+}
